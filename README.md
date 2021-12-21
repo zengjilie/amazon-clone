@@ -26,5 +26,5 @@ firebase emulators:start
 
 ---
 
-**Tracking Payments**
+**Tracking Orders**
 <img src ="./amazon_shot_3.gif">
