@@ -14,7 +14,7 @@ npm start
 ```
 /amazon-clone/functions
 ```
-firebase emulator:start
+firebase emulators:start
 ```
 **Register**
 <img src ="./amazon_shot_1.gif">
