@@ -50,6 +50,6 @@ firebase emulators:start
 
 
 
-*Tracking Orders
+* Tracking Orders
 
 <img src ="./amazon_shot_3.gif">
