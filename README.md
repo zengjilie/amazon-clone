@@ -1,30 +1,53 @@
 # Amazon-clone Project(Full-stack)
-**Front-end** : React.js | HTML | CSS
+**Front-end dev and framework** : React.js | HTML | CSS
 
-**Back-end** : Node.js | express.js | stripe.js
+**Back-end dev and framework** : Node.js | Express.js
 
-**Database** : Firebase
+**Payment Platform** : Stripe
+
+**Cloud Database Platform** : Firebase
 
 **Hosting URL** : https://challenge-d6ab9.web.app
 
-## Download this project
+## To check out this project on your local machine
+
+* Download this project
+```
+git clone https://github.com/zengjilie/amazon-clone.git
+```
+* Install dependencies
+```
+npm i @stripe/react-stripe-js
+npm i @stripe/stripe-js
+npm i firebase
+npm i moment
+npm i axios
+npm i react-currency-format
+...check out the package.json file
+```
+* Start react server
 /amazon-clone
 ```
 npm start 
+//default: http://localhost:3000
 ```
+
+* Turn on firebase emulator
 /amazon-clone/functions
 ```
 firebase emulators:start
 ```
-**Register**
+* Register
+
 <img src ="./amazon_shot_1.gif">
 
----
 
-**Make Payments**
+* Make Payments
+
 <img src ="./amazon_shot_2.gif">
 
----
 
-**Tracking Orders**
+
+*Tracking Orders
+
 <img src ="./amazon_shot_3.gif">
