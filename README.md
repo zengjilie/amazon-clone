@@ -25,6 +25,12 @@ npm i axios
 npm i react-currency-format
 ...check out the package.json file
 ```
+
+* Use Stripe and Firebase platform
+1. Create account
+2. Go to '/src/firebase.js', change firebase config to your own
+3. Go to '/functions/index.js', change stripe secret key to your own
+
 * Start react server
 
 ```
