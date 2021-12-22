@@ -3,14 +3,15 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 
+//Your firebase SDK configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAPIpDc0rWz4o5r1Jz8PzCr_wOtJF_KHY4",
-    authDomain: "challenge-d6ab9.firebaseapp.com",
-    projectId: "challenge-d6ab9",
-    storageBucket: "challenge-d6ab9.appspot.com",
-    messagingSenderId: "702094884806",
-    appId: "1:702094884806:web:325df51f660a767a08bcc7",
-    measurementId: "G-S0QB06H9RF"
+    apiKey: "...",
+    authDomain: "...",
+    projectId: "...",
+    storageBucket: "...",
+    messagingSenderId: "...",
+    appId: "...",
+    measurementId: "..."
   };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
