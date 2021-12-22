@@ -26,15 +26,17 @@ npm i react-currency-format
 ...check out the package.json file
 ```
 * Start react server
-/amazon-clone
+
 ```
+/amazon-clone
 npm start 
 //default: http://localhost:3000
 ```
 
 * Turn on firebase emulator
-/amazon-clone/functions
+
 ```
+/amazon-clone/functions
 firebase emulators:start
 ```
 * Register
